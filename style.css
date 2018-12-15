@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+
+    /* background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    height: 100vh;
+    background-color: black;
+}
+@keyframes mymove {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 90%;
+    }
+    0% {
+        transform: translateY(90px);
+    }
+    25% {
+        transform: translateX(100px);
+    }
+    50% {
+        transform: translateY(40px);
+    }
+    75% {
+        transform: translateX(-100px);
+    }
+}
+
+
+.down{
+
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+}
+img{
+    
+    position: absolute;
+    width:2%;
+    left: 100px;
+
+
+}
+ .tw{
+
+     left: 310px;
+ }
+ 
+ .tw2{
+   left: 500px
+
+}
+
+.tw3{
+     left: 90px;
+}
+
+.tw4{
+    left: 620px;
+
+}
+
+.tw5{
+     left: 250px;
+}
+
+.tw6{
+     left: 480px;
+}
+
+.tw7{
+     left: 100%;
+}
